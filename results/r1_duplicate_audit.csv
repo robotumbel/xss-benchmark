@@ -1,0 +1,11 @@
+quantity,value
+samples (total),101000.0
+exact duplicate rows (features+label),576.0
+duplicate feature vectors (any label),576.0
+feature vectors duplicated with conflicting labels,0.0
+duplicate rows within benign class,571.0
+duplicate rows within XSS class,5.0
+rows in duplicate groups spanning >1 partition,575.0
+test rows sharing a feature vector with train/val,150.0
+test XSS rows sharing a feature vector with train/val,2.0
+duplicate fraction of dataset (%),0.57

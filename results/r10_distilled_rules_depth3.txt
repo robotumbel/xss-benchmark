@@ -1,0 +1,45 @@
+A) Rules on standardised feature values (z-scores of the training split)
+
+|--- url_special_characters <= 4.98
+|   |--- js_method_alert <= 0.25
+|   |   |--- html_tag_div <= -0.51
+|   |   |   |--- class: 0
+|   |   |--- html_tag_div >  -0.51
+|   |   |   |--- class: 0
+|   |--- js_method_alert >  0.25
+|   |   |--- html_tag_div <= -0.44
+|   |   |   |--- class: 1
+|   |   |--- html_tag_div >  -0.44
+|   |   |   |--- class: 0
+|--- url_special_characters >  4.98
+|   |--- html_tag_div <= 0.53
+|   |   |--- html_attr_href <= 2.33
+|   |   |   |--- class: 1
+|   |   |--- html_attr_href >  2.33
+|   |   |   |--- class: 0
+|   |--- html_tag_div >  0.53
+|   |   |--- class: 0
+
+
+B) The same depth-3 rule list refit on raw feature counts, directly transcribable into a WAF rule
+   test AUPRC=0.9097 MCC=0.9413 F1=0.9418 precision=0.954 recall=0.930
+
+|--- url_special_characters <= 0.50
+|   |--- js_method_alert <= 0.50
+|   |   |--- html_tag_div <= 11.50
+|   |   |   |--- class: 0
+|   |   |--- html_tag_div >  11.50
+|   |   |   |--- class: 0
+|   |--- js_method_alert >  0.50
+|   |   |--- html_tag_div <= 37.50
+|   |   |   |--- class: 1
+|   |   |--- html_tag_div >  37.50
+|   |   |   |--- class: 0
+|--- url_special_characters >  0.50
+|   |--- html_tag_div <= 371.50
+|   |   |--- html_attr_href <= 972.50
+|   |   |   |--- class: 1
+|   |   |--- html_attr_href >  972.50
+|   |   |   |--- class: 0
+|   |--- html_tag_div >  371.50
+|   |   |--- class: 0

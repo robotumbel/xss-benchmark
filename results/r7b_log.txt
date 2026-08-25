@@ -1,0 +1,5 @@
+{'direction': 'A -> B', 'model': 'Char-BiLSTM + attention', 'AUPRC': 0.9236, 'F1': 0.8658, 'MCC': 0.6167, 'Precision': 0.891, 'Recall': 0.842}
+{'direction': 'A -> B', 'model': 'Char-Transformer (2L, 4 heads)', 'AUPRC': 0.9488, 'F1': 0.8761, 'MCC': 0.5706, 'Precision': 0.7892, 'Recall': 0.9844}
+{'direction': 'B -> A', 'model': 'Char-BiLSTM + attention', 'AUPRC': 0.8689, 'F1': 0.629, 'MCC': 0.4162, 'Precision': 0.4613, 'Recall': 0.9885}
+{'direction': 'B -> A', 'model': 'Char-Transformer (2L, 4 heads)', 'AUPRC': 0.4926, 'F1': 0.5699, 'MCC': 0.3172, 'Precision': 0.5227, 'Recall': 0.6265}
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r7b_crossdataset_modern.csv

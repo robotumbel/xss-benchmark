@@ -1,0 +1,68 @@
+feature,mean |SHAP| (log-odds),share of total attribution (%),mean SHAP on XSS samples (log-odds),group
+html_tag_div,0.5649,11.52,1.3936,context
+html_attr_href,0.3334,6.8,0.8592,context
+html_number_keywords_evil,0.3047,6.21,0.1759,attack marker
+url_special_characters,0.3026,6.17,15.1666,attack marker
+url_tag_script,0.2824,5.76,12.2614,attack marker
+html_length,0.2707,5.52,0.4969,context
+js_method_getElementsByTagName,0.2705,5.51,0.4889,context
+js_string_max_length,0.2619,5.34,0.5018,context
+js_method_alert,0.2389,4.87,2.0827,attack marker
+js_dom_document,0.2179,4.44,0.0044,attack marker
+url_length,0.1987,4.05,0.892,context
+js_min_length,0.1613,3.29,0.4635,context
+html_tag_script,0.1261,2.57,0.1442,attack marker
+html_tag_meta,0.1257,2.56,0.3836,context
+html_tag_input,0.1229,2.51,0.0572,context
+html_event_onclick,0.1154,2.35,0.0137,attack marker
+html_attr_http-equiv,0.1082,2.21,0.0201,context
+html_tag_link,0.1006,2.05,0.396,context
+js_method_getElementById,0.0781,1.59,0.0268,context
+html_attr_src,0.0758,1.54,0.0226,attack marker
+js_min_function_calls,0.0712,1.45,0.0355,context
+js_dom_location,0.0629,1.28,0.118,attack marker
+js_method_write,0.0604,1.23,0.0066,context
+html_tag_form,0.0556,1.13,0.0115,context
+html_event_onmouseover,0.0515,1.05,0.0873,attack marker
+js_pseudo_protocol,0.0454,0.93,0.0235,context
+html_tag_img,0.0426,0.87,0.0379,context
+html_tag_style,0.0269,0.55,0.005,context
+html_event_onkeypress,0.026,0.53,-0.0021,attack marker
+url_number_keywords_param,0.0215,0.44,0.0584,context
+html_event_onmouseout,0.018,0.37,0.1177,attack marker
+html_attr_background,0.018,0.37,0.1948,context
+html_event_onfocus,0.0162,0.33,0.0074,attack marker
+js_method_eval,0.0151,0.31,0.0018,attack marker
+html_attr_action,0.015,0.31,0.014,context
+url_attr_src,0.0149,0.3,0.2779,attack marker
+html_event_onblur,0.01,0.2,0.0026,attack marker
+html_tag_iframe,0.0098,0.2,0.0012,attack marker
+url_number_domain,0.0087,0.18,0.0764,attack marker
+html_tag_textarea,0.0081,0.17,-0.0018,context
+html_event_onchange,0.0077,0.16,0.0102,attack marker
+js_method_confirm,0.0075,0.15,0.0034,context
+js_prop_referrer,0.0074,0.15,0.0033,context
+html_event_onload,0.0033,0.07,0.0037,attack marker
+html_event_onsubmit,0.0032,0.06,0.0011,attack marker
+html_event_onerror,0.0031,0.06,0.0017,attack marker
+html_event_onmousedown,0.0026,0.05,0.0025,attack marker
+html_attr_codebase,0.0026,0.05,0.0178,context
+js_method_fromCharCode,0.002,0.04,-0.0002,attack marker
+html_event_onkeydown,0.0016,0.03,-0.0003,attack marker
+js_file,0.0015,0.03,-0.0034,context
+html_event_onmouseup,0.0011,0.02,0.0007,attack marker
+html_tag_frame,0.0008,0.02,0.0082,context
+js_min_define_function,0.0007,0.01,0.0003,context
+js_prop_cookie,0.0006,0.01,0.0011,attack marker
+html_tag_embed,0.0004,0.01,0.0011,context
+html_tag_svg,0.0002,0.0,0.0004,context
+html_tag_object,0.0002,0.0,0.0011,context
+html_event_onkeyup,0.0002,0.0,0.0001,attack marker
+html_attr_profile,0.0001,0.0,-0.0,context
+url_cookie,0.0001,0.0,0.0057,attack marker
+html_attr_usemap,0.0001,0.0,0.0002,context
+html_attr_longdesc,0.0,0.0,0.0,context
+url_event_onload,0.0,0.0,0.0,attack marker
+html_attr_classid,0.0,0.0,0.0007,context
+url_event_onmouseover,0.0,0.0,0.0,attack marker
+url_tag_iframe,0.0,0.0,0.0,attack marker

@@ -1,0 +1,5 @@
+evasion tier,clean-vs-obfuscated discriminability (ROC-AUC)
+tier 1: functionality-preserving,0.6315
+tier 2: escape/split (original mix),0.9989
+tier 1+2 combined (as published),0.9725
+tier 3: artifact-suppressing,0.9999

@@ -1,0 +1,6 @@
+model,hidden,bidirectional,recurrent params,total trainable params
+Vanilla RNN,64,False,4288,6593
+LSTM-1L,64,False,17152,19457
+GRU-1L,64,False,12864,15169
+BiLSTM,64,True,34304,43009
+MLP,128-64,False,0,17409

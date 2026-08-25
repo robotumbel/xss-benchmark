@@ -1,0 +1,3 @@
+family,default val AUPRC,default fit (s),search configs,search wall-clock (s),best searched val AUPRC,gain from search,total development cost (s)
+LightGBM (tree ensemble),0.999,0.7,12,28.9,0.9986,-0.0004,29.5
+GRU (recurrent),0.9862,21.5,12,456.7,0.9893,0.0031,478.1

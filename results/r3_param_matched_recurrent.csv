@@ -1,0 +1,5 @@
+model,hidden,recurrent params,total params,AUPRC_mean,AUPRC_std,MCC_mean,MCC_std,F1_mean,train_s_mean,s_per_epoch
+Vanilla RNN (matched),130,17290,26261,0.9569,0.0196,0.9404,0.0099,0.9408,17.0,0.86
+LSTM-1L (reference),64,17152,19457,0.9439,0.0132,0.8997,0.0205,0.9002,18.2,0.87
+GRU-1L (matched),75,17550,20624,0.9733,0.0063,0.9519,0.0003,0.9524,26.6,0.89
+BiLSTM (matched),45,17280,21691,0.9375,0.0117,0.9197,0.0066,0.9205,30.1,1.0

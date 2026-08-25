@@ -1,0 +1,184 @@
+
+=== ratio 100:1  seed 42 | train_pos=700 test_pos=200
+  Random Forest        AUPRC=0.9874 MCC=0.9719
+  XGBoost              AUPRC=0.9854 MCC=0.9670
+  LightGBM             AUPRC=0.9866 MCC=0.9723
+  Logistic Regression  AUPRC=0.9547 MCC=0.9402
+  MLP                  AUPRC=0.9728 MCC=0.9540
+  GRU-1L               AUPRC=0.9721 MCC=0.9439
+
+=== ratio 100:1  seed 7 | train_pos=700 test_pos=200
+  Random Forest        AUPRC=0.9917 MCC=0.9771
+  XGBoost              AUPRC=0.9914 MCC=0.9797
+  LightGBM             AUPRC=0.9926 MCC=0.9772
+  Logistic Regression  AUPRC=0.9742 MCC=0.9413
+  MLP                  AUPRC=0.9583 MCC=0.9268
+  GRU-1L               AUPRC=0.9439 MCC=0.8904
+
+=== ratio 100:1  seed 2024 | train_pos=700 test_pos=200
+  Random Forest        AUPRC=0.9852 MCC=0.9746
+  XGBoost              AUPRC=0.9870 MCC=0.9797
+  LightGBM             AUPRC=0.9851 MCC=0.9771
+  Logistic Regression  AUPRC=0.9630 MCC=0.9228
+  MLP                  AUPRC=0.9632 MCC=0.9317
+  GRU-1L               AUPRC=0.9673 MCC=0.9303
+
+=== ratio 250:1  seed 42 | train_pos=280 test_pos=80
+  Random Forest        AUPRC=0.9816 MCC=0.9616
+  XGBoost              AUPRC=0.9878 MCC=0.9551
+  LightGBM             AUPRC=0.9843 MCC=0.9681
+  Logistic Regression  AUPRC=0.9419 MCC=0.9419
+  MLP                  AUPRC=0.9458 MCC=0.9360
+  GRU-1L               AUPRC=0.8953 MCC=0.8730
+
+=== ratio 250:1  seed 7 | train_pos=280 test_pos=80
+  Random Forest        AUPRC=0.9590 MCC=0.9419
+  XGBoost              AUPRC=0.9587 MCC=0.9492
+  LightGBM             AUPRC=0.9584 MCC=0.9365
+  Logistic Regression  AUPRC=0.8744 MCC=0.9019
+  MLP                  AUPRC=0.9386 MCC=0.9355
+  GRU-1L               AUPRC=0.9324 MCC=0.9149
+
+=== ratio 250:1  seed 2024 | train_pos=280 test_pos=80
+  Random Forest        AUPRC=0.9926 MCC=0.9747
+  XGBoost              AUPRC=0.9969 MCC=0.9620
+  LightGBM             AUPRC=0.9971 MCC=0.9552
+  Logistic Regression  AUPRC=0.9318 MCC=0.8996
+  MLP                  AUPRC=0.9823 MCC=0.9365
+  GRU-1L               AUPRC=0.9415 MCC=0.8691
+
+=== ratio 500:1  seed 42 | train_pos=140 test_pos=40
+  Random Forest        AUPRC=0.9441 MCC=0.9248
+  XGBoost              AUPRC=0.9548 MCC=0.9353
+  LightGBM             AUPRC=0.9548 MCC=0.9617
+  Logistic Regression  AUPRC=0.8525 MCC=0.9085
+  MLP                  AUPRC=0.9115 MCC=0.8836
+  GRU-1L               AUPRC=0.9054 MCC=0.8315
+
+=== ratio 500:1  seed 7 | train_pos=140 test_pos=40
+  Random Forest        AUPRC=0.9700 MCC=0.9353
+  XGBoost              AUPRC=0.9837 MCC=0.9353
+  LightGBM             AUPRC=0.9798 MCC=0.9486
+  Logistic Regression  AUPRC=0.8610 MCC=0.9096
+  MLP                  AUPRC=0.9139 MCC=0.9218
+  GRU-1L               AUPRC=0.8511 MCC=0.8694
+
+=== ratio 500:1  seed 2024 | train_pos=140 test_pos=40
+  Random Forest        AUPRC=0.9416 MCC=0.8856
+  XGBoost              AUPRC=0.9432 MCC=0.9367
+  LightGBM             AUPRC=0.9450 MCC=0.9056
+  Logistic Regression  AUPRC=0.8050 MCC=0.8718
+  MLP                  AUPRC=0.9365 MCC=0.9085
+  GRU-1L               AUPRC=0.8698 MCC=0.7755
+
+=== ratio 1000:1  seed 42 | train_pos=70 test_pos=20
+  Random Forest        AUPRC=1.0000 MCC=0.8659
+  XGBoost              AUPRC=1.0000 MCC=0.8943
+  LightGBM             AUPRC=1.0000 MCC=0.8659
+  Logistic Regression  AUPRC=0.9413 MCC=0.9233
+  MLP                  AUPRC=0.9887 MCC=0.9219
+  GRU-1L               AUPRC=0.9281 MCC=0.8365
+
+=== ratio 1000:1  seed 7 | train_pos=70 test_pos=20
+  Random Forest        AUPRC=0.9480 MCC=0.8943
+  XGBoost              AUPRC=0.8783 MCC=0.8102
+  LightGBM             AUPRC=0.9197 MCC=0.5914
+  Logistic Regression  AUPRC=0.7380 MCC=0.7824
+  MLP                  AUPRC=0.8603 MCC=0.8133
+  GRU-1L               AUPRC=0.7731 MCC=0.6706
+
+=== ratio 1000:1  seed 2024 | train_pos=70 test_pos=20
+  Random Forest        AUPRC=0.9386 MCC=0.6706
+  XGBoost              AUPRC=0.9315 MCC=0.7069
+  LightGBM             AUPRC=0.9233 MCC=0.7069
+  Logistic Regression  AUPRC=0.8047 MCC=0.8720
+  MLP                  AUPRC=0.9047 MCC=0.8384
+  GRU-1L               AUPRC=0.8521 MCC=0.8384
+
+=== ratio 2000:1  seed 42 | train_pos=35 test_pos=10
+  Random Forest        AUPRC=0.9065 MCC=0.8944
+  XGBoost              AUPRC=0.9002 MCC=0.8944
+  LightGBM             AUPRC=0.9015 MCC=0.9487
+  Logistic Regression  AUPRC=0.8001 MCC=0.8944
+  MLP                  AUPRC=0.8451 MCC=0.7745
+  GRU-1L               AUPRC=0.5114 MCC=0.5719
+
+=== ratio 2000:1  seed 7 | train_pos=35 test_pos=10
+  Random Forest        AUPRC=0.9154 MCC=0.8215
+  XGBoost              AUPRC=0.9068 MCC=0.8580
+  LightGBM             AUPRC=0.9175 MCC=0.9000
+  Logistic Regression  AUPRC=0.8312 MCC=0.8944
+  MLP                  AUPRC=0.6865 MCC=0.8432
+  GRU-1L               AUPRC=0.8774 MCC=0.8432
+
+=== ratio 2000:1  seed 2024 | train_pos=35 test_pos=10
+  Random Forest        AUPRC=0.9054 MCC=0.7745
+  XGBoost              AUPRC=0.9033 MCC=0.8366
+  LightGBM             AUPRC=0.8868 MCC=0.8944
+  Logistic Regression  AUPRC=0.9004 MCC=0.8944
+  MLP                  AUPRC=0.8081 MCC=0.7999
+  GRU-1L               AUPRC=0.7375 MCC=0.6530
+
+=== ratio 5000:1  seed 42 | train_pos=14 test_pos=4
+  Random Forest        AUPRC=1.0000 MCC=0.5000
+  XGBoost              AUPRC=1.0000 MCC=0.5000
+  LightGBM             AUPRC=0.9500 MCC=0.7071
+  Logistic Regression  AUPRC=0.7503 MCC=0.8660
+  MLP                  AUPRC=0.8167 MCC=0.8660
+  GRU-1L               AUPRC=0.2633 MCC=0.4521
+
+=== ratio 5000:1  seed 7 | train_pos=14 test_pos=4
+  Random Forest        AUPRC=1.0000 MCC=0.8660
+  XGBoost              AUPRC=1.0000 MCC=1.0000
+  LightGBM             AUPRC=1.0000 MCC=0.8660
+  Logistic Regression  AUPRC=0.6667 MCC=0.8165
+  MLP                  AUPRC=0.8333 MCC=0.6123
+  GRU-1L               AUPRC=0.6778 MCC=0.4999
+
+=== ratio 5000:1  seed 2024 | train_pos=14 test_pos=4
+  Random Forest        AUPRC=0.8929 MCC=0.8660
+  XGBoost              AUPRC=0.9500 MCC=0.5000
+  LightGBM             AUPRC=0.8929 MCC=0.5000
+  Logistic Regression  AUPRC=0.4514 MCC=0.6707
+  MLP                  AUPRC=0.3836 MCC=0.2886
+  GRU-1L               AUPRC=0.5105 MCC=0.0000
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r2_imbalance_sweep_raw.csv
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r2_imbalance_sweep_summary.csv
+
+  ratio               model  AUPRC_mean  AUPRC_std  MCC_mean  MCC_std  F1_mean  F1_std  Precision_mean  Precision_std  Recall_mean  Recall_std
+   100              GRU-1L      0.9611     0.0151    0.9215   0.0278   0.9219  0.0279          0.9470         0.0154       0.8983      0.0404
+   100            LightGBM      0.9881     0.0040    0.9756   0.0028   0.9758  0.0028          0.9783         0.0074       0.9733      0.0029
+   100 Logistic Regression      0.9640     0.0098    0.9347   0.0104   0.9347  0.0099          0.9553         0.0439       0.9167      0.0275
+   100                 MLP      0.9648     0.0074    0.9375   0.0145   0.9379  0.0144          0.9349         0.0341       0.9417      0.0126
+   100       Random Forest      0.9881     0.0033    0.9745   0.0026   0.9747  0.0027          0.9864         0.0076       0.9633      0.0115
+   100             XGBoost      0.9879     0.0031    0.9755   0.0074   0.9757  0.0073          0.9814         0.0059       0.9700      0.0087
+   250              GRU-1L      0.9231     0.0245    0.8857   0.0254   0.8845  0.0236          0.9338         0.0596       0.8417      0.0191
+   250            LightGBM      0.9799     0.0198    0.9533   0.0159   0.9531  0.0156          0.9785         0.0266       0.9292      0.0072
+   250 Logistic Regression      0.9161     0.0364    0.9145   0.0238   0.9139  0.0236          0.9480         0.0440       0.8833      0.0289
+   250                 MLP      0.9555     0.0235    0.9360   0.0005   0.9359  0.0008          0.9607         0.0121       0.9125      0.0125
+   250       Random Forest      0.9777     0.0171    0.9594   0.0165   0.9587  0.0173          0.9957         0.0074       0.9250      0.0375
+   250             XGBoost      0.9811     0.0200    0.9554   0.0064   0.9552  0.0064          0.9786         0.0196       0.9333      0.0191
+   500              GRU-1L      0.8755     0.0276    0.8254   0.0473   0.8241  0.0482          0.8300         0.1085       0.8250      0.0250
+   500            LightGBM      0.9599     0.0179    0.9386   0.0293   0.9377  0.0294          0.9545         0.0787       0.9250      0.0250
+   500 Logistic Regression      0.8395     0.0302    0.8967   0.0215   0.8959  0.0209          0.9374         0.0391       0.8583      0.0144
+   500                 MLP      0.9207     0.0138    0.9046   0.0194   0.9029  0.0182          0.9634         0.0411       0.8500      0.0000
+   500       Random Forest      0.9519     0.0157    0.9153   0.0262   0.9140  0.0266          0.9170         0.0872       0.9167      0.0382
+   500             XGBoost      0.9606     0.0208    0.9358   0.0008   0.9345  0.0019          0.9829         0.0296       0.8917      0.0289
+  1000              GRU-1L      0.8511     0.0775    0.7819   0.0963   0.7592  0.1200          0.9792         0.0361       0.6333      0.1607
+  1000            LightGBM      0.9477     0.0454    0.7214   0.1378   0.6808  0.1698          1.0000         0.0000       0.5333      0.2021
+  1000 Logistic Regression      0.8280     0.1037    0.8592   0.0713   0.8575  0.0737          0.9057         0.0374       0.8167      0.1041
+  1000                 MLP      0.9179     0.0652    0.8579   0.0568   0.8544  0.0570          0.9400         0.0589       0.7833      0.0577
+  1000       Random Forest      0.9622     0.0331    0.8103   0.1218   0.7889  0.1465          1.0000         0.0000       0.6667      0.1893
+  1000             XGBoost      0.9366     0.0610    0.8038   0.0939   0.7884  0.1126          0.9242         0.1312       0.7167      0.1893
+  2000              GRU-1L      0.7088     0.1847    0.6893   0.1393   0.6845  0.1407          0.6559         0.2019       0.7333      0.1155
+  2000            LightGBM      0.9019     0.0154    0.9143   0.0299   0.9121  0.0311          0.9667         0.0577       0.8667      0.0577
+  2000 Logistic Regression      0.8439     0.0513    0.8944   0.0000   0.8889  0.0000          1.0000         0.0000       0.8000      0.0000
+  2000                 MLP      0.7799     0.0830    0.8059   0.0347   0.7974  0.0461          0.8963         0.1002       0.7333      0.1155
+  2000       Random Forest      0.9091     0.0055    0.8301   0.0604   0.8190  0.0694          0.9167         0.1443       0.7667      0.1528
+  2000             XGBoost      0.9035     0.0033    0.8630   0.0292   0.8565  0.0327          0.9394         0.1050       0.8000      0.1000
+  5000              GRU-1L      0.4839     0.2085    0.3173   0.2759   0.3000  0.2646          0.2576         0.2503       0.4167      0.3819
+  5000            LightGBM      0.9476     0.0536    0.6910   0.1835   0.6413  0.2296          1.0000         0.0000       0.5000      0.2500
+  5000 Logistic Regression      0.6228     0.1542    0.7844   0.1015   0.7746  0.0977          0.7556         0.2143       0.8333      0.1443
+  5000                 MLP      0.6779     0.2550    0.5889   0.2894   0.5810  0.2862          0.6111         0.3469       0.5833      0.2887
+  5000       Random Forest      0.9643     0.0619    0.7440   0.2113   0.7048  0.2639          1.0000         0.0000       0.5833      0.2887
+  5000             XGBoost      0.9833     0.0289    0.6666   0.2887   0.6000  0.3464          1.0000         0.0000       0.5000      0.4330

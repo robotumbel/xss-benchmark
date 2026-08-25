@@ -1,0 +1,25 @@
+  LightGBM out-of-the-box: val AUPRC=0.9990 (0.7s)
+  LightGBM search (12 configs): best val AUPRC=0.9986 (28.9s)
+  GRU out-of-the-box: val AUPRC=0.9862 (21.5s)
+    trial 1/12 {'hidden': 64, 'dropout': 0.5, 'lr': 0.0003, 'bs': 512} -> 0.9158
+    trial 2/12 {'hidden': 64, 'dropout': 0.1, 'lr': 0.0003, 'bs': 512} -> 0.9218
+    trial 3/12 {'hidden': 32, 'dropout': 0.1, 'lr': 0.003, 'bs': 1024} -> 0.9680
+    trial 4/12 {'hidden': 192, 'dropout': 0.0, 'lr': 0.003, 'bs': 1024} -> 0.9893
+    trial 5/12 {'hidden': 64, 'dropout': 0.0, 'lr': 0.001, 'bs': 512} -> 0.9750
+    trial 6/12 {'hidden': 64, 'dropout': 0.1, 'lr': 0.001, 'bs': 512} -> 0.9826
+    trial 7/12 {'hidden': 192, 'dropout': 0.1, 'lr': 0.0003, 'bs': 1024} -> 0.9399
+    trial 8/12 {'hidden': 64, 'dropout': 0.1, 'lr': 0.001, 'bs': 512} -> 0.9826
+    trial 9/12 {'hidden': 64, 'dropout': 0.5, 'lr': 0.001, 'bs': 1024} -> 0.9539
+    trial 10/12 {'hidden': 192, 'dropout': 0.3, 'lr': 0.001, 'bs': 1024} -> 0.9738
+    trial 11/12 {'hidden': 192, 'dropout': 0.0, 'lr': 0.001, 'bs': 256} -> 0.9830
+    trial 12/12 {'hidden': 192, 'dropout': 0.0, 'lr': 0.001, 'bs': 1024} -> 0.9824
+  GRU search (12 configs): best val AUPRC=0.9893 (456.7s)
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r11_development_cost.csv
+
+                   family  default val AUPRC  default fit (s)  search configs  search wall-clock (s)  best searched val AUPRC  gain from search  total development cost (s)
+LightGBM (tree ensemble)             0.9990              0.7              12                   28.9                   0.9986           -0.0004                        29.5
+         GRU (recurrent)             0.9862             21.5              12                  456.7                   0.9893            0.0031                       478.1
+
+best LightGBM cfg: {'n_estimators': 900, 'num_leaves': 127, 'learning_rate': 0.02, 'subsample': 1.0, 'colsample_bytree': 0.6}
+best GRU cfg: {'hidden': 192, 'dropout': 0.0, 'lr': 0.003, 'bs': 1024}
+R11 exit=0

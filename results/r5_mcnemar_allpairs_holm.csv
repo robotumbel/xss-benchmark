@@ -1,0 +1,11 @@
+comparison,b (only A correct),c (only B correct),chi2,p_raw,p_Holm,"significant (Holm, 0.05)"
+Random Forest vs LightGBM,5,5,0.1,0.7518,1.0,False
+Random Forest vs XGBoost,4,2,0.167,0.6831,1.0,False
+Random Forest vs MLP,7,2,1.778,0.1824,1.0,False
+Random Forest vs GRU-1L,16,2,9.389,0.0022,0.0218,True
+LightGBM vs XGBoost,3,1,0.25,0.6171,1.0,False
+LightGBM vs MLP,10,5,1.067,0.3017,1.0,False
+LightGBM vs GRU-1L,19,5,7.042,0.008,0.0717,False
+XGBoost vs MLP,8,5,0.308,0.5791,1.0,False
+XGBoost vs GRU-1L,17,5,5.5,0.019,0.1521,False
+MLP vs GRU-1L,15,6,3.048,0.0809,0.566,False

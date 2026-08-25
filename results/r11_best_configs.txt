@@ -1,0 +1,2 @@
+LightGBM: {'n_estimators': 900, 'num_leaves': 127, 'learning_rate': 0.02, 'subsample': 1.0, 'colsample_bytree': 0.6}
+GRU: {'hidden': 192, 'dropout': 0.0, 'lr': 0.003, 'bs': 1024}

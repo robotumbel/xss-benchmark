@@ -1,0 +1,9 @@
+model,pos_weight loss,minority oversampling,AUPRC_mean,AUPRC_std,MCC_mean,MCC_std,Precision_mean,Recall_mean
+GRU-1L,True,True,0.9719,0.0031,0.9415,0.0022,0.949,0.935
+GRU-1L,True,False,0.9814,0.0006,0.9582,0.0046,0.976,0.942
+GRU-1L,False,True,0.9793,0.0063,0.9649,0.0033,0.989,0.942
+GRU-1L,False,False,0.9751,0.003,0.942,0.0066,0.991,0.897
+MLP,True,True,0.9715,0.0014,0.9579,0.0033,0.993,0.925
+MLP,True,False,0.9767,0.0026,0.9532,0.0023,0.967,0.94
+MLP,False,True,0.9468,0.002,0.9489,0.0037,0.962,0.937
+MLP,False,False,0.9746,0.0011,0.9495,0.0068,0.978,0.923

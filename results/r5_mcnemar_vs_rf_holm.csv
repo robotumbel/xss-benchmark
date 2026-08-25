@@ -1,0 +1,10 @@
+model,b,c,chi2,p_raw,p_Holm,"significant (Holm, 0.05)"
+LightGBM,5,5,0.1,0.75183,1.0,False
+XGBoost,4,2,0.167,0.68309,1.0,False
+GRU-1L,16,2,9.389,0.00218,0.01092,True
+MLP,7,2,1.778,0.18242,0.54727,False
+BiLSTM,20,3,11.13,0.00085,0.0051,True
+LSTM-1L,23,3,13.885,0.00019,0.00136,True
+Logistic Regression,14,2,7.562,0.00596,0.02384,True
+Vanilla RNN,52,3,41.891,0.0,0.0,True
+Naive Bayes,139,2,131.177,0.0,0.0,True

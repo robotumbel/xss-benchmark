@@ -1,0 +1,45 @@
+  extracted 32 features from 28,349 payloads in 5.7s | pos=281 ratio=99:1
+
+=== seed 42 | train_pos=197 test_pos=56
+  Random Forest        AUPRC=0.9991 MCC=0.9727 (1.28s)
+  XGBoost              AUPRC=0.9939 MCC=0.9639 (0.85s)
+  LightGBM             AUPRC=0.9976 MCC=0.9657 (1.66s)
+  Logistic Regression  AUPRC=0.8674 MCC=0.8470 (0.08s)
+  MLP                  AUPRC=0.9754 MCC=0.9350 (6.1s)
+  GRU-1L               AUPRC=0.6967 MCC=0.6926 (2.8s)
+  BiLSTM               AUPRC=0.8862 MCC=0.8278 (3.3s)
+  Vanilla RNN          AUPRC=0.4570 MCC=0.4917 (1.6s)
+
+=== seed 7 | train_pos=197 test_pos=56
+  Random Forest        AUPRC=0.9877 MCC=0.9553 (1.34s)
+  XGBoost              AUPRC=0.9884 MCC=0.9156 (0.76s)
+  LightGBM             AUPRC=0.9855 MCC=0.9375 (1.68s)
+  Logistic Regression  AUPRC=0.8921 MCC=0.8636 (0.08s)
+  MLP                  AUPRC=0.8895 MCC=0.8697 (4.4s)
+  GRU-1L               AUPRC=0.9025 MCC=0.8377 (6.7s)
+  BiLSTM               AUPRC=0.8402 MCC=0.7862 (3.7s)
+  Vanilla RNN          AUPRC=0.7874 MCC=0.7918 (4.2s)
+
+=== seed 2024 | train_pos=197 test_pos=56
+  Random Forest        AUPRC=0.9560 MCC=0.9355 (1.35s)
+  XGBoost              AUPRC=0.9536 MCC=0.9259 (0.87s)
+  LightGBM             AUPRC=0.9610 MCC=0.9084 (1.61s)
+  Logistic Regression  AUPRC=0.8369 MCC=0.8302 (0.1s)
+  MLP                  AUPRC=0.8793 MCC=0.9161 (3.8s)
+  GRU-1L               AUPRC=0.8882 MCC=0.7901 (6.0s)
+  BiLSTM               AUPRC=0.8966 MCC=0.8323 (8.4s)
+  Vanilla RNN          AUPRC=0.8245 MCC=0.8614 (7.6s)
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r9_alt_schema_raw.csv
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r9_alt_schema_summary.csv
+
+               model  AUPRC_mean  AUPRC_std  MCC_mean  MCC_std  F1_mean  F1_std  Precision_mean  Precision_std  Recall_mean  Recall_std  time_s_mean  time_s_std
+           LightGBM      0.9814     0.0186    0.9372   0.0287   0.9376  0.0282          0.9297         0.0037       0.9464      0.0536       1.6500      0.0361
+      Random Forest      0.9809     0.0223    0.9545   0.0186   0.9548  0.0186          0.9638         0.0173       0.9464      0.0309       1.3233      0.0379
+            XGBoost      0.9786     0.0219    0.9351   0.0255   0.9352  0.0258          0.9323         0.0531       0.9405      0.0412       0.8267      0.0586
+                MLP      0.9147     0.0528    0.9069   0.0336   0.9069  0.0330          0.9483         0.0398       0.8690      0.0273       4.7667      1.1930
+             BiLSTM      0.8743     0.0300    0.8155   0.0254   0.8149  0.0266          0.8769         0.0165       0.7619      0.0449       5.1333      2.8361
+Logistic Regression      0.8655     0.0276    0.8469   0.0167   0.8481  0.0165          0.8346         0.0343       0.8631      0.0273       0.0867      0.0115
+             GRU-1L      0.8291     0.1149    0.7735   0.0739   0.7710  0.0725          0.8164         0.1451       0.7440      0.0899       5.1667      2.0793
+        Vanilla RNN      0.6896     0.2023    0.7149   0.1965   0.7167  0.1949          0.7525         0.1936       0.6845      0.1959       4.4667      3.0089
+  saved -> D:\Code-PhD\Deteksi XXS\paper q4 revisi\rev_out\r9_alt_schema_features.csv
+R9 exit=0

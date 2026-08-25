@@ -1,0 +1,5 @@
+direction,model,AUPRC,F1,MCC,Precision,Recall
+A -> B,Char-BiLSTM + attention,0.9236,0.8658,0.6167,0.891,0.842
+A -> B,"Char-Transformer (2L, 4 heads)",0.9488,0.8761,0.5706,0.7892,0.9844
+B -> A,Char-BiLSTM + attention,0.8689,0.629,0.4162,0.4613,0.9885
+B -> A,"Char-Transformer (2L, 4 heads)",0.4926,0.5699,0.3172,0.5227,0.6265

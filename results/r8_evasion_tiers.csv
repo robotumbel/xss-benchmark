@@ -1,0 +1,6 @@
+evasion tier,draws,malicious recall,recall std,benign FP rate (benign also transformed),F1 (both sides transformed),MCC,mean malicious score
+clean (no transform),1,1.0,0.0,0.00321,0.9969,0.9953,0.9926
+tier 1: functionality-preserving,3,1.0,0.0,0.01075,0.9898,0.9845,0.9938
+tier 2: escape/split (original mix),3,0.9999,0.0002,0.23631,0.8149,0.7246,0.9772
+tier 1+2 combined (as published),3,1.0,0.0,0.10996,0.9044,0.8572,0.9856
+tier 3: artifact-suppressing,3,0.2755,0.0012,0.0,0.432,0.4473,0.2425
